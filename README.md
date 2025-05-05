@@ -34,48 +34,6 @@ A modular, scalable multi-agent system designed to evaluate the quality of both 
 
 
 
-## Output
-=== VIDEO EVALUATION REPORT ===
-{
-  "metadata": {
-    "system_version": "1.0",
-    "evaluation_date": "<timestamp>"
-  },
-  "quantitative_metrics": {
-    "temporal": {
-      "optical_flow": "<optical_flow_value>",
-      "frame_difference": "<frame_difference_value>",
-      "ssim": "<ssim_value>",
-      "edge_consistency": "<edge_consistency_value>"
-    },
-    "semantic": {
-      "score": "<semantic_score>",
-      "summary": "<generated_summary_from_video>",
-      "reference": "<user_provided_reference_text>"
-    },
-    "dynamic": {
-      "scene_change_ratio": "<scene_change_ratio>",
-      "avg_optical_flow": "<avg_optical_flow>",
-      "flow_variance": "<flow_variance>",
-      "brightness_change_frequency": "<brightness_change_frequency>",
-      "avg_object_movement": "<avg_object_movement>",
-      "object_movement_variance": "<object_movement_variance>",
-      "assessment": "<dynamic_assessment>"
-    },
-    "generalization": {
-      "novelty_score": "<novelty_score>",
-      "assessment": "<novelty_assessment>"
-    }
-  },
-  "qualitative_assessment": {
-    "temporal_quality": "<temporal_quality_label>",
-    "semantic_alignment": "<semantic_alignment_label>",
-    "scene_continuity": "<scene_continuity_label>",
-    "content_familiarity": "<content_familiarity_label>"
-  }
-}
-
-Report saved to 'video_evaluation_report.json'
 
 ## Interactive Workflow
 1. Select metrics from available options
