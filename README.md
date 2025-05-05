@@ -2,7 +2,13 @@
 
 ##  Installation
 
-I have already shared the setup_guide and specified the important installations to be done. You just need to install those packages and run the code.
+## Installation
+
+Clone the repository:
+
+##bash
+git clone https://github.com/DivyaKD-1204/Multi_agent_video_evaluation.git
+cd Multi_agent_video_evaluation
 
 
 # Multi-Agent Video Evaluation System
