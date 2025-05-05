@@ -29,11 +29,10 @@ A modular, scalable multi-agent system designed to evaluate the quality of both 
 | ReportingAgent     | It reports after gathering all necessary evaluation results  |
    
 ##  Metrics
-1.Temporal Coherence: "optical_flow": "<optical_flow_value>",
-                      "frame_difference": "<frame_difference_value>",
-                      "ssim": "<ssim_value>",
-                      "edge_consistency": "<edge_consistency_value>"
-2.Semantic Consistency:
+1.Temporal Coherence:[Optical Flow, Frame Difference, SSIM, Edge Consistency]
+2.Semantic: [Semantic Alignment Score]
+3.Dynamic:[Scene Change Ratio, Average Optical Flow, Flow Variance, Brightness Change Frequency, Average Object Movement, Object Movement Variance]
+4.Generalization: [Novelty Score]
 
 
 
